@@ -30,3 +30,20 @@ ul {
   #heading {
     color: red;
   }
+  #ingredients {
+    height: auto;
+  }
+  #ingredients figure {
+    width: 8rem;
+    text-align: center;
+  }
+  #main-image {
+    width: 900px;
+    height: 1000px;
+    position: relative;
+    left: 400px;
+    bottom: 1200px;
+  }
+  #article {
+
+  }

@@ -1,3 +1,4 @@
+/*Nav Bar Style*/
 ul {
     list-style-type: none;
     margin:0;
@@ -21,4 +22,11 @@ ul {
   li a:hover {
       background-color: #555;
       color: white;
+  }
+  /*Header*/
+  header {
+    font-family: 'Playfair Display', serif;
+  }
+  #heading {
+    color: red;
   }

@@ -27,6 +27,10 @@ ul {
   header {
     font-family: 'Playfair Display', serif;
   }
+  h1 {
+    font-size: 4rem;
+    text-align:center;
+  }
   #heading {
     color: red;
   }
@@ -37,6 +41,10 @@ ul {
   #ingredients figure {
     width: 8rem;
     text-align: center;
+  }
+  .image {
+    width:7rem;
+    height: 6rem;
   }
   #main-image {
     width: 900px;

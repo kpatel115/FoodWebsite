@@ -7,9 +7,12 @@ body{
 }
 .nav-deal{
   font-family: 'Comfortaa', cursive;
-  height: 5rem;
+  height: 1.75rem;
   padding: 5px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 nav{
   width: 100%;
@@ -51,7 +54,7 @@ main{
 }
 /* Welcome page w/ video */
 .intro-background{
-  height: 100vh;
+  height: 200vh;
   width: 100vw;
 }
 
@@ -60,6 +63,7 @@ main{
   justify-content:flex-start;
   align-items: center;
   align-content: center;
+  opacity: 1;
 }
 .nav3 li{
   padding: 5px;
@@ -81,9 +85,19 @@ main{
 }
 
 /* Guiding Principles */
-.guiding-principles{
-  margin: 3rem 3rem 0rem 3rem;
+.guiding-principles-section{
+  margin: 5rem 3rem 0rem 3rem;
   height: 120vh;
+}
+.guiding-principles-header{
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 1rem;
+  margin: 2rem;
+}
+.guiding-principles{
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -92,6 +106,10 @@ main{
 }
 .guiding-principles p {
   padding: 1rem;
+}
+.guiding-principles{
+  
+
 }
 .guiding-principles h3{
   font-weight: bold;
@@ -113,6 +131,18 @@ main{
   padding: 10px;
   margin: 1rem 1rem;
 
+}
+.shop-popular{
+  margin-top: 1rem;
+  margin: 5rem 3rem 0rem 3rem;
+  height: 120vh;
+}
+
+
+.transparency-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 footer{
 

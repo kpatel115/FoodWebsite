@@ -1,11 +1,12 @@
 *{
-
+  font-family: 'Comfortaa', cursive;
 }
 body{
 
 }
 .nav-deal{
-  height: 10%;
+  font-family: 'Comfortaa', cursive;
+  height: 5rem;
   padding: 5px;
   text-align: center;
 }
@@ -73,7 +74,34 @@ main{
 
 /* Guiding Principles */
 .guiding-principles{
-  
+  margin: 3rem 3rem 0rem 3rem;
+
+  height: 120vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+
+}
+.guiding-principles-header{
+  font-weight: bold;
+}
+.guiding-principles-article1{
+  width: 30%;
+  padding: 10px;
+  margin: 1rem 1rem;
+}
+.guiding-principles-article2{
+  width: 30%;
+  padding: 10px;
+  margin: 1rem 1rem;
+
+}
+.guiding-principles-article3{
+  width: 30%;
+  padding: 10px;
+  margin: 1rem 1rem;
+
 }
 footer{
 

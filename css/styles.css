@@ -1,5 +1,6 @@
 *{
   font-family: 'Comfortaa', cursive;
+  letter-spacing: .2rem;
 }
 body{
 
@@ -67,15 +68,21 @@ main{
 #search-bar{
   justify-content: end;
 }
-.intro-video{
+.hero{
   height: 100vh;
   width: 100vw;
+  position: relative;
+}
+.intro-video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
 }
 
 /* Guiding Principles */
 .guiding-principles{
   margin: 3rem 3rem 0rem 3rem;
-
   height: 120vh;
   display: flex;
   flex-direction: row;
@@ -83,8 +90,12 @@ main{
   align-items: stretch;
 
 }
-.guiding-principles-header{
+.guiding-principles p {
+  padding: 1rem;
+}
+.guiding-principles h3{
   font-weight: bold;
+  margin: 1rem;
 }
 .guiding-principles-article1{
   width: 30%;
